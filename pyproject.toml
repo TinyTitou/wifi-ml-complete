@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "wifi-ml-complete"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "wifi_ml_complete"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+numpy = "^1.23.3"
+pandas = "^1.5.0"
+matplotlib = "^3.6.0"
+seaborn = "^0.12.0"
+scipy = "^1.9.1"
+sklearn = "^0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
